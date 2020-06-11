@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         const optiononeid=cardsChosenid[0]
         const optiontwoid = cardsChosenid[1]
         if (cardsChosen[0]===cardsChosen[1]){
-            alert('you found a match')
+            // alert('you found a match')
             cards[optiononeid].setAttribute('src','images/white.png')
             cards[optiontwoid].setAttribute('src','images/white.png')
             cardswon.push(cardsChosen)
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         else{
             cards[optiononeid].setAttribute('src','images/blank.png')
             cards[optiontwoid].setAttribute('src','images/blank.png')
-            alert('sorry u lose')
+            // alert('sorry u lose')
         }
         cardsChosen=[]
         cardsChosenid=[]
